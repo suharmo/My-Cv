@@ -1,0 +1,273 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: black;    
+        
+    height: 60px;   
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+} 
+
+.navbar a {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+       
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: white; 
+  border-radius: 15px;
+  text-align: center;
+  cursor:pointer;
+}
+
+body {
+ margin: 0px;
+ background-image: url('https://media.metrolatam.com/2018/04/10/nasauniverso-e3f09eac41930eb5631d6ca565871cd3-1200x600.jpg');
+ background-size: cover;
+ background-position: center;
+}
+
+
+.nav-btn {
+  border-radius: 15%;
+  background-color: grey;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  margin-right: 20px;
+}
+
+.home img {
+  width: 100%;
+  
+}
+
+.container-about {
+  margin-top: 3%;
+}
+
+.about {
+  margin: 0 auto;
+  width: 70%; 
+  flex-wrap: nowrap;
+  background-color: white;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+.img-sf1 {
+  flex: 1;
+}
+
+.img-sf1 img {
+  width: 76%;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  border-radius: 40%;
+}
+
+.text-sf1 {
+  flex: 1;
+  
+
+}
+
+.text-sf1 p {
+margin-top: 23%;
+margin-right: 15%;
+font-size: 147%;
+}
+
+.btn-dwn {
+  text-align: center;
+
+}
+.download-cv-btn {
+  width: 40%;
+  border-radius: 40%;
+  background-color: black;
+  color: grey;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-bottom: 4%;
+  font-size: 30px;
+  padding: 5px;
+
+  
+}
+
+.download-cv-btn:hover {
+  background-color: grey;
+  color: black;
+  text-align: center;
+  border-radius: 20%;
+  margin-bottom: 4%;
+  cursor:pointer;
+
+}
+
+.container-skills {
+
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 70%;
+  
+}
+
+
+
+.d-flex{
+  display: flex;
+}
+
+.title h1 {
+  padding-top: 5%;
+  
+   
+  text-align: center;
+
+}
+
+.skills {
+  display: flex;
+  
+  padding: 10px;
+ 
+}
+
+.languages {
+  flex: 1;
+  padding-left: 10%;
+
+}
+
+.percentage {
+  flex: 1;
+
+}
+
+.html {
+  width: 90%;
+  background-color: #4CAF50;
+  margin: 11px;
+
+} 
+
+.css {
+  width: 80%; 
+  background-color: #2196F3;
+  margin: 11px;
+} 
+
+.js {
+  width: 65%; 
+  background-color: #f44336;
+  margin: 11px;
+} 
+
+.contact {
+  background-color: #F9F9F9;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 70%;
+  
+}
+
+
+.container-contact {
+  padding: 5%;
+}
+
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:20px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+ 
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
